@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <!-- Icon -->
+    <link rel="icon" href="/src/icon.png" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Font Roboto + Bootstrap icon -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- JS -->
+    <script src="js/scripts.js" defer></script>
+
+</head>
+<body>
+    <div class="content">
+        <header>
+            <h1>My notes</h1>
+            <div id="search-conteiner">
+                <i class="bi bi-search"></i>
+                <input type="text" id="search-input" placeholder="Search note">
+            </div>
+            <button id="btn-export">
+                Export CSV
+                <i class="bi bi-download"></i>
+            </button>
+        </header>
+
+        <main>
+            <div id="add-note-container">
+                <input type="text" id="create-note" placeholder="Create a new note:">
+                <button id="btn-create-note">
+                    <i class="bi bi-plus-lg"></i> 
+                </button>
+            </div>
+        </main>
+
+        <section>
+            <div id="notes-container">
+                <!-- <div class="note fixed">
+                    <textarea placeholder="Add your note"></textarea>
+                    <i class="bi bi-pin"></i>
+                    <i class="bi bi-x-lg"></i>
+                    <i class="bi bi-file-earmark-plus"></i>
+                </div>
+    
+                <div class="note">
+                    <textarea placeholder="Add your note"></textarea>
+                    <i class="bi bi-pin"></i>
+                    <i class="bi bi-x-lg"></i>
+                    <i class="bi bi-file-earmark-plus"></i>
+                </div> -->
+            </div>
+        </section>
+
+        <footer>
+            <div class="info">
+                <p>&copy; Isabela Olsemann</p>
+            </div>
+            <div class="info">
+                <div class="footer-link">
+                    <a href="https://www.linkedin.com/in/isabelaolsemann/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://github.com/isabelaolsemann" target="_blank"><i class="bi bi-github"></i></a>
+                    <a href="mailto:isabelaolsemann@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
